@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+  background: #f4f4f9;
+  color: #333;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.bits-container {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.bit-box {
+  text-align: center;
+}
+
+.bit-btn {
+  width: 45px;
+  height: 55px;
+  font-size: 22px;
+  font-weight: bold;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.bit-btn:hover {
+  background: #d0d0d0;
+}
+
+/* Active state when bit is toggled to '1' */
+.bit-btn.active {
+  background: #007bff;
+  color: white;
+}
+
+.result {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 25px;
+  font-weight: bold;
+  background: #e9f5ff;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+#decimalOutput {
+  color: #007bff;
+}
